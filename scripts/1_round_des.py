@@ -14,9 +14,9 @@ print('\n64 bit key:         ',key,'count:',len(key))
 
 pc1 = ""
 for element in ls:
-    pc1 += key[element]
+    pc1 += key[element - 1]
 for e in rs:
-    pc1 += key[e]
+    pc1 += key[e - 1]
 print('permuted choice 1:  ',pc1,'        count:',len(pc1),'\n')
 
 
